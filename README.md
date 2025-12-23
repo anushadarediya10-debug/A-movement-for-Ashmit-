@@ -1,5 +1,13 @@
 # A-movement-for-Ashmit-
-
+<!--
+Built quietly, carefully, and with a lot of thought.
+If you opened the source, this part was just for you — Anusha 🤍
+-->
+<!--
+Version: 1.0.0
+Release: Ashmit’s 29th Birthday
+Status: Stable & meaningful and full of love 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,6 +45,18 @@ body {
 </div>
 
 <script>
+  // TODO: Close the distance someday.
+  const today = new Date();
+const specialDay = new Date(today.getFullYear(), 11, 25); // Dec = 11
+
+if (today.toDateString() !== specialDay.toDateString()) {
+  document.body.innerHTML =
+    "<h2 style='color:white;text-align:center;'>This page was meant for a specific day 🤍</h2>";
+}
+
+if (today !== specialDay) {
+  document.body.innerHTML = "<h2 style='color:white;text-align:center;'>This page was meant for a specific day 🤍</h2>";
+}
 const message = `
 Ashmit,
 
