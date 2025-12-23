@@ -46,7 +46,7 @@ body {
 
 <script>
   // TODO: Close the distance someday.
-typeeffect(); //call the typing function directly
+<script>
 const message = `
 Ashmit,
 
@@ -66,6 +66,7 @@ Happy Birthday 🤍
 `;
 
 let i = 0;
+
 function typeEffect() {
   if (i < message.length) {
     document.getElementById("text").innerHTML +=
@@ -74,8 +75,11 @@ function typeEffect() {
     setTimeout(typeEffect, 45);
   }
 }
+
+// start typing
 typeEffect();
 </script>
+
 
 </body>
 </html>
