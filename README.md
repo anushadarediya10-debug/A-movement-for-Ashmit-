@@ -46,17 +46,7 @@ body {
 
 <script>
   // TODO: Close the distance someday.
-  const today = new Date();
-const specialDay = new Date(today.getFullYear(), 23, 25); // Dec = 23
-
-if (today.toDateString() !== specialDay.toDateString()) {
-  document.body.innerHTML =
-    "<h2 style='color:white;text-align:center;'>This page was meant for a specific day 🤍</h2>";
-}
-
-if (today !== specialDay) {
-  document.body.innerHTML = "<h2 style='color:white;text-align:center;'>This page was meant for a specific day 🤍</h2>";
-}
+typeeffect(); //call the typing function directly
 const message = `
 Ashmit,
 
