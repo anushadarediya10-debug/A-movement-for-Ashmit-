@@ -47,7 +47,7 @@ body {
 <script>
   // TODO: Close the distance someday.
   const today = new Date();
-const specialDay = new Date(today.getFullYear(), 11, 25); // Dec = 11
+const specialDay = new Date(today.getFullYear(), 23, 25); // Dec = 23
 
 if (today.toDateString() !== specialDay.toDateString()) {
   document.body.innerHTML =
